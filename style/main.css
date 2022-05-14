@@ -1,0 +1,104 @@
+.links-image img{
+    height: 600px;
+}
+*{
+    padding:0px;
+    margin:0px;
+}
+
+#container{
+    display: grid;
+    background-color: rgba(128, 128, 128, 0.059);
+    font-family: monospace;
+}
+#navigation{
+    display: grid;
+    grid-template-columns: auto 10% 10% 10% 10% 10% 10% auto ;
+    background-color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.nav-button{
+    height: 30px;
+    text-align: center;
+    font-size: small;
+    background-color: rgba(128, 128, 128, 0.059);
+}
+.middle-div{
+    margin-top:20px;
+    /* background-color: rgba(128, 128, 128, 0.059); */
+
+}
+a{
+    margin-top: 10px;
+    display: grid;
+    grid-template-rows: auto;
+}
+a:hover{
+    background-color: rgba(112, 112, 112, 0.16)
+} 
+#title{
+    
+    text-align: center;
+    font-size: xx-large;
+    background-color: rgba(135, 94, 207, 0.267);
+    
+}
+.description-text{
+    font-size: medium;
+    text-align: center;
+    margin-bottom: 10px;
+}
+#description-text-lower{
+    text-align: center;
+    margin-top: 20px;
+    font-family: monospace;
+    font-size: large;
+    
+}
+
+#bottom-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    font-family: monospace;
+    height: fit-content;
+}
+
+#first-box{
+    display: grid;
+    grid-column-start: 1;
+    background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.thesocialitefamily.com%2Fen%2Fshop%2Funcategorized%2Fancient-greek-style-athena-corinthian-column%2F&psig=AOvVaw1G5AmWLDQ0EmffFW-1O7FB&ust=1652410002457000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCLiWrIv52PcCFQAAAAAdAAAAABAv);
+    background-color: rgba(135, 94, 207, 0.511);
+    position: relative;
+    border: solid rgba(133, 133, 133, 0.162);
+    
+}
+
+#last-box{
+   
+    grid-column-start: 3;
+    background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.thesocialitefamily.com%2Fen%2Fshop%2Funcategorized%2Fancient-greek-style-athena-corinthian-column%2F&psig=AOvVaw1G5AmWLDQ0EmffFW-1O7FB&ust=1652410002457000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCLiWrIv52PcCFQAAAAAdAAAAABAv);
+    background-color: rgba(135, 94, 207, 0.511);
+    border: solid rgba(133, 133, 133, 0.162);
+    
+}
+#middle-box{
+    
+    text-align: center;
+    /* box-shadow: -2px 5px 10px rgba(128, 0, 128, 0.393); */
+    position:relative;
+    
+}
+.center-text{
+    text-align: center;
+    margin-top: 20px;
+}
+.about-image img{
+    text-align: center;
+}
+
+
+
+
+
+
